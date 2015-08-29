@@ -13,7 +13,7 @@ module.exports = function DefaultKeystoneConfiguration(theme) {
 		'auto update': true,
 		'session': true,
 		'session store': 'mongo',
-		'auth': true,
+		'auth': false,
 		'cookie secret': process.env.COOKIE_SECRET,
 		'view engine': 'html',
 		'views': theme.getTemplatePath(),
